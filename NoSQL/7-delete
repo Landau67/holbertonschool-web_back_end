@@ -1,4 +1,6 @@
 // Delete
-db.school.delete({
-    "name": "Holberton School"
-})
+db.school.delete(
+    { "name": "Holberton School"} ,
+    false,
+    true
+)
